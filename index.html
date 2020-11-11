@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Compasso UOL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/x-icon" href="./images/icons/favicon.ico">
+  <meta name="description" content="Nossa missão é transformar o mundo, construindo experiências digitais que permitam o crescimento de nossos clientes." />
+  <link href="//db.onlinewebfonts.com/c/7200c6dd8ac604abe09f5159e53a40c0?family=Mark+Pro" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+  
+  <div class="container">
+    <div class="login-content">
+      <div class="login-container">
+        <h1>Olá,</h1>
+        <h2>Para continuar navegando de forma segura, efetue o login na rede.</h2>
+        <form class="login-form">
+          <h3>Login</h3>
+          <div class="login-baseline-icons">
+            <input class="login-input" type="email" placeholder="Usuário" name="user" id="user" required>
+            <span class="login-input-icon">
+              <img src="./images/icons/icon-user.svg" alt="User Icon"/>
+            </span>
+          </div>
+          <div class="login-input-container">
+            <div class="login-baseline-icons">
+            <input class="login-input" type="password" placeholder="Senha" name="password" id="password" required>
+            <span class="login-input-icon">
+              <img src="./images/icons/icon-password.svg" alt="Lock Icon" />
+            </span>
+          </div>
+          </div>
+          <p class="login-alert">Ops, usuário ou senha inválidos.</p>
+          <p class="login-alert">Tente novamente!</p>
+          <button class="login-button" type="submit" onclick="login(event)">Continuar</button>
+        </form>
+      </div>
+    </div>
+    <div class="login-background-right">
+      <img class="login-brand" src="./images/logo-brand-white.png" alt="Compasso UOL" />
+    </div>
+  </div>
+
+<script src="./js/mock.js"></script>
+</body>
+
+</html>
